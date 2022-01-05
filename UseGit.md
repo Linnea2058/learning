@@ -77,3 +77,8 @@
 - github项目中不要用中文命名
 
   ![image-20220105170704449](F:\typoro\img\image-20220105170704449.png)
+
+- 删除远程仓库（github)中的文件——将远程仓库里面的项目拉下来，在本地操作删除某文件，再上传到gitHub
+  - git pull origin master 将远程仓库里面的项目拉下来
+  - git rm 文件名 删除本地文件
+  - git commit -m "提交描述"
